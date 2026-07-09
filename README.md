@@ -98,6 +98,6 @@ By utilizing a dual Mellin–Barnes ansatz, the incommensurate irrational scales
 ---
 
 ### 📚 References
-* **Raghava, K. S.** *Barnes–Lerch Evaluation of a Log-Periodic Trilogarithmic Integral*, Preprints / Private Communication.
+* **Raghava, K. S.** *Barnes–Lerch Evaluation of a Log-Periodic Trilogarithmic Integral*.
 * **Whittaker, E. T., & Watson, G. N.** (1927). *A Course of Modern Analysis*. Cambridge University Press.
 * **Paris, R. B., & Kaminski, D.** (2001). *Asymptotics and Mellin-Barnes Integrals*. Cambridge University Press.
