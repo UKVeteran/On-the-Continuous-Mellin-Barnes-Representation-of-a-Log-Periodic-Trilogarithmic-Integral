@@ -23,11 +23,11 @@ To resolve this aesthetic and computational bottleneck, we introduce a **continu
 
 The object of investigation is the highly non-trivial log-periodic trilogarithmic integral:
 
-$$J = \int_{0}^{1} \frac{\log x \log(1-x)}{\sqrt{x(1-x)}} \left[ \text{Li}_3\left(x^{\sqrt{2}}\right) - \text{Li}_3\left((1-x)^{\sqrt{3}}\right) \right] \cos\left( \pi \frac{\log(-\log x)}{\log 2} \right) dx$$
+$$J = \int_{0}^{1} \frac{\log x \log(1-x)}{\sqrt{x(1-x)}} \left[ \text{Li}_3(x^{\sqrt{2}}) - \text{Li}_3((1-x)^{\sqrt{3}}) \right] \cos\left( \pi \frac{\log(-\log x)}{\log 2} \right) dx$$
 
 By setting $\omega = \frac{\pi}{\log 2}$, $s = 2 + i\omega$, and utilizing the coordinate transformation $x = e^{-u}$, Raghav maps the log-periodic cosine kernel into a single Mellin character $\text{Re}(u^{i\omega})$, arriving at:
 
-$$J = \text{Re} \int_{0}^{\infty} u^{s-1} e^{-u/2} \frac{-\log(1-e^{-u})}{\sqrt{1-e^{-u}}} \left\{ \text{Li}_3\left(e^{-\sqrt{2}u}\right) - \text{Li}_3\left((1-e^{-u})^{\sqrt{3}}\right) \right\} du$$
+$$J = \text{Re} \int_{0}^{\infty} u^{s-1} e^{-u/2} \frac{-\log(1-e^{-u})}{\sqrt{1-e^{-u}}} \Big\{ \text{Li}_3(e^{-\sqrt{2}u}) - \text{Li}_3((1-e^{-u})^{\sqrt{3}}) \Big\} du$$
 
 To evaluate this, previous literature expands the second trilogarithm $\text{Li}_3((1-e^{-u})^{\sqrt{3}})$ as a discrete Taylor series, integrating term-by-term via the continuous-order Barnes–Lerch zeta function:
 
@@ -74,7 +74,7 @@ $$J = \frac{1}{2\pi i} \int_{c - i\infty}^{c + i\infty} \Gamma(-k) \zeta(3-k) (-
 
 where $\mathcal{M}(k; \omega)$ represents the decoupled kernel mapping evaluated entirely over **standard, fixed-parameter Gamma and Polygamma functions**:
 
-$$\mathcal{M}(k; \omega) = \text{Re} \left\{ \left. \frac{\partial^2}{\partial \alpha \partial \beta} \left[ \text{B}\left(\alpha + k\sqrt{2} + i\omega, \beta\right) - \text{B}\left(\alpha + i\omega, \beta + k\sqrt{3}\right) \right] \right|_{\alpha=1/2, \beta=1/2} \right\}$$
+$$\mathcal{M}(k; \omega) = \text{Re} \Big\{ \frac{\partial^2}{\partial \alpha \partial \beta} \Big[ \text{B}\left(\alpha + k\sqrt{2} + i\omega, \beta\right) - \text{B}\left(\alpha + i\omega, \beta + k\sqrt{3}\right) \Big] \Big|_{\alpha=1/2, \beta=1/2} \Big\}$$
 
 ---
 
