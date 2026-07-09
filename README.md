@@ -1,0 +1,1 @@
+# On-the-Continuous-Mellin-Barnes-Representation-of-a-Log-Periodic-Trilogarithmic-Integral
